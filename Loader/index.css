@@ -1,0 +1,31 @@
+*{
+  font-family:  monospace;
+  color: rgb(26, 16, 9);
+}
+
+.loader{
+  width: 120px;
+  height:120px;
+  border-radius: 6rem;
+  border: 1.2rem solid rgb(239, 189, 189);
+  border-top: 1.2rem solid rgb(224, 69, 69);
+  /* background-color: rgb(251, 248, 248); */
+  position: relative;
+  margin:auto;
+  top:35%;
+  animation: spin 2s linear infinite;
+  /* animation: spin 2s linear infinite; */
+  
+
+}
+
+@keyframes spin {
+0% { 
+  transform: rotate(0deg); 
+}
+  100% { 
+    transform: rotate(360deg);
+   }
+
+}
+
